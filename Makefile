@@ -20,7 +20,7 @@ test:
 	python manage.py test --settings=mysite.settings.test
 
 coverage:
-	coverage run manage.py test
+	coverage run manage.py test polls.tests
 
 lint:
 	flake8 polls
