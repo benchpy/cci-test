@@ -19,7 +19,8 @@ install-test:
 test:
 	python manage.py test polls --settings=mysite.test
 
-#coverage:
+coverage:
+	ls
 #	coverage run manage.py test polls --settings=mysite.test
 
 #lint:
