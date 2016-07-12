@@ -17,10 +17,10 @@ install-test:
 #	pip install -r #requirements/test.txt
 
 test:
-	python manage.py test polls.tests --settings=mysite.settings.test
+	python manage.py test polls --settings=mysite.test
 
 coverage:
-	coverage run manage.py test polls.tests --settings=mysite.settings.test
+	coverage run manage.py test polls --settings=mysite.test
 
 lint:
 	flake8 polls
