@@ -19,11 +19,11 @@ install-test:
 test:
 	python manage.py test polls --settings=mysite.test
 
-coverage:
-	coverage run manage.py test polls --settings=mysite.test
+#coverage:
+#	coverage run manage.py test polls --settings=mysite.test
 
-lint:
-	flake8 polls
+#lint:
+#	flake8 polls
 
 requirements:
 	$(MAKE) -C requirements
