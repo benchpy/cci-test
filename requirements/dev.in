@@ -1,0 +1,12 @@
+-r test.txt
+pylint
+coverage
+ipdb
+ipdbplugin
+ipython
+isort
+pip-tools
+Sphinx
+sphinx-rtd-theme
+django-debug-toolbar>=1.4
+Werkzeug>=0.11.2

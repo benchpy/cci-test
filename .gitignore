@@ -1,0 +1,7 @@
+# Python things
+*.pyc
+__pycache__/
+/venv/
+
+# Local settings should not be committed
+/cluster/cluster/settings/local.py

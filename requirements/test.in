@@ -1,0 +1,6 @@
+-r base.txt
+django_nose
+factory_djoy
+flake8
+mock
+yanc
