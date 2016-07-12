@@ -13,6 +13,5 @@ test:
     - make lint
   override:
     - make test
-    - make coverage
   post:
     - coverage html -d $CIRCLE_ARTIFACTS
