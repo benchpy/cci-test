@@ -10,11 +10,11 @@ install:
 install-test:
 	pip install -r requirements-test.txt
 
-#install:
-#	pip install -r requirements/base.txt
+# install:
+#	 pip install -r requirements/base.txt
 
-#install-test:
-#	pip install -r #requirements/test.txt
+# install-test:
+#	 pip install -r #requirements/test.txt
 
 test:
 	python manage.py test polls --settings=mysite.test
@@ -23,8 +23,10 @@ coverage:
 	ls
 #	coverage run manage.py test polls --settings=mysite.test
 
-#lint:
-#	flake8 polls
+
+# lint:
+#	  flake8 polls
+
 
 requirements:
 	$(MAKE) -C requirements
